@@ -1,0 +1,131 @@
+body {
+    font-family: 'Arial Black', Arial, sans-serif;
+    background-color: 	#F5F5DC;
+    margin: 0;
+}
+
+.centrar {
+    text-align: center;
+    padding: 20px;
+}
+
+
+button {
+    background-color: #4c87af;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.b1{
+    position: absolute;
+    top: 250px;
+    left: 410px;
+}
+.grid1 {
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    display: grid;
+    grid-template-columns: repeat(2, 100px); /* Cambia el tamaño de las celdas si es necesario */
+    grid-template-rows: repeat(2, 100px); /* Cambia el tamaño de las celdas si es necesario */
+    border: 2px solid black; /* Agregar un borde a la cuadrícula */
+    background-color: rgb(175, 177, 179);
+    width: 200px;
+    
+}
+.b2{
+    position: absolute;
+    top: 250px;
+    left: 1510px;
+}
+.grid2 {
+    position: absolute;
+    top: 300px;
+    left: 1500px;
+    display: grid;
+    grid-template-columns: repeat(2, 100px); /* Cambia el tamaño de las celdas si es necesario */
+    grid-template-rows: repeat(2, 100px); /* Cambia el tamaño de las celdas si es necesario */
+    border: 2px solid black; /* Agregar un borde a la cuadrícula */
+    background-color: rgb(175, 179, 176);
+    width: 200px;
+}
+.b3{
+    position: absolute;
+    top: 750px;
+    left: 410px;
+}
+.grid3 {
+    position: absolute;
+    top: 800px;
+    left: 400px;
+    display: grid;
+    grid-template-columns: repeat(2, 100px); /* Cambia el tamaño de las celdas si es necesario */
+    grid-template-rows: repeat(2, 100px); /* Cambia el tamaño de las celdas si es necesario */
+    border: 2px solid black; /* Agregar un borde a la cuadrícula */
+    background-color: rgb(179, 177, 175);
+    width: 200px;
+}
+.b4{
+    position: absolute;
+    top: 750px;
+    left: 1510px;
+}
+.grid4 {
+    position: absolute;
+    top: 800px;
+    left: 1500px;
+    display: grid;
+    grid-template-columns: repeat(2, 100px); /* Cambia el tamaño de las celdas si es necesario */
+    grid-template-rows: repeat(2, 100px); /* Cambia el tamaño de las celdas si es necesario */
+    border: 2px solid rgb(0, 0, 0); /* Agregar un borde a la cuadrícula */
+    background-color: rgb(179, 179, 175);
+    width: 200px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgba(255, 255, 255, 0); /* Agregar un borde a las celdas */
+    
+}
+
+.moving-image {
+    position: absolute;
+    top: 300px;
+    left: 1000px;
+    width: 100px; /* Cambia el tamaño de la imagen si es necesario */
+    height: 100px; /* Cambia el tamaño de la imagen si es necesario */
+    position: absolute;
+    transition: left 0.2s, top 0.2s;
+}
+.carga {
+    position: absolute;
+    top: 200px;
+    left: 900px;
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    grid-template-columns: repeat(3, 100px); /* Cambia el tamaño de las celdas si es necesario */
+    grid-template-rows: repeat(3, 100px); /* Cambia el tamaño de las celdas si es necesario */
+    border: 2px solid black; /* Agregar un borde a la cuadrícula */
+    width: 300px;
+}
+.bateria{
+    position: absolute;
+    top: 500px;
+    left: 950px;
+}
+.estado{
+    position: absolute;
+    top: 550px;
+    left: 1000px;
+}
+.fin{
+    position: absolute;
+    top: 650px;
+    left: 950px;
+}
+.false-button {
+    background-color: #ccc;
+    color: #555;
+  }
